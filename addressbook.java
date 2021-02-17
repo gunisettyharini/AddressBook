@@ -32,7 +32,7 @@ public class addressbook {
 	}
  
 	public void edit(String[] contact) {
-		System.out.println("If you want to edit then press 1 else press 0");//yso sysout  ctr+Space
+		System.out.println("If you want to edit then press 1 else press 0");
 		Scanner sc = new Scanner(System.in);
 		int read = sc.nextInt();
 		if (read == 1) {
